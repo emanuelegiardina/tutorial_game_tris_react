@@ -19,7 +19,7 @@ function Square({ value, onSquareClick, highlight }) {
     <button
       className="square"
       onClick={onSquareClick}
-      style={{ backgroundColor: highlight ? "lightgreen" : "white" }}
+      style={{ backgroundColor: highlight ? "lightgreen" : "white" }}//colore quadrato
     >
       {value}
     </button>
